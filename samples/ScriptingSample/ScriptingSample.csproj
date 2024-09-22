@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Unofficial.CodeAnalysis.CSharp.Scripting\Unofficial.CodeAnalysis.CSharp.Scripting.csproj" />
+    <ProjectReference Include="..\ScriptingSample.Lib\ScriptingSample.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
